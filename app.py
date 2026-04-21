@@ -56,7 +56,7 @@ if uploaded_file is not None and job_desc:
         st.success("Your resume is well aligned with this role 🎉")
     elif missing_skills:
         st.write("👉 Try adding these skills:", ", ".join(missing_skills))
-
+        
     else:
         st.write("⚠️ Improve project descriptions and keyword usage")
 
