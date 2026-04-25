@@ -9,10 +9,10 @@ from utils import extract_text_from_pdf
 
 st.title("📄 AI Resume Screener")
 
-# Upload Resume
+# Upload Resume here
 uploaded_file = st.file_uploader("Upload your Resume (PDF)", type=["pdf"])
 
-# Job Description
+# Job Description here
 job_desc = st.text_area("Paste Job Description")
 
 if uploaded_file is not None and job_desc:
