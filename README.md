@@ -1,7 +1,7 @@
 # 📄 AI Resume Screener
 
 An AI-based web application that analyzes resumes and compares them with job descriptions.
-
+...
 ## 🚀 Features
 
 * Resume vs Job Description matching
