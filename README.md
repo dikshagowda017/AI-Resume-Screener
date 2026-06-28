@@ -1,27 +1,57 @@
-# 📄 AI Resume Screener
+# 🤖 AI Resume Screener
 
-An AI-based web application that analyzes resumes and compares them with job descriptions.
-...
-## 🚀 Features
+An AI-powered Resume Screening application that analyzes resumes against job descriptions using Natural Language Processing (NLP). It extracts text from PDF resumes, compares them with job descriptions using TF-IDF and Cosine Similarity, identifies missing skills, and provides actionable recommendations.
 
-* Resume vs Job Description matching
-* Match score using NLP (TF-IDF)
-* Missing skills detection
-* Improvement suggestions
+## 🌐 Live Demo
+
+🔗 https://ai-resume-screener-dikshabr.streamlit.app/
+
+## ✨ Features
+
+- 📄 Upload PDF resumes
+- 📝 Compare resumes with any job description
+- 📊 AI-powered Resume Match Score
+- 🔍 Skill extraction and matching
+- ⚠️ Missing skills identification
+- 💡 Personalized improvement suggestions
+- ⚡ Fast and interactive Streamlit interface
 
 ## 🛠️ Tech Stack
 
-* Python
-* Scikit-learn
-* Streamlit
-* NLP (TF-IDF)
+- **Language:** Python
+- **Framework:** Streamlit
+- **Libraries:** Scikit-learn, Pandas, NumPy, PyPDF2
+- **NLP:** TF-IDF Vectorization, Cosine Similarity
 
-## ▶️ How to Run
+## 📂 Project Structure
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
 ```
+AI-Resume-Screener/
+│── app.py
+│── model.py
+│── utils.py
+│── requirements.txt
+│── README.md
+```
+
+## 🚀 Future Enhancements
+
+- ATS Compatibility Score
+- Resume Ranking
+- AI-powered Resume Feedback
+- Downloadable Analysis Report
+- Multiple Resume Comparison
+- Enhanced Skill Recommendations
+
+## 👩‍💻 Author
+
+**Diksha B R**  
+Final-Year Computer Science (AI & ML) Student
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/diksha-gowda-242881293/  
+🌐 **Live Demo:** https://ai-resume-screener-dikshabr.streamlit.app/
+
+⭐ If you found this project useful, consider giving it a star!
 
 ## 📸 Screenshots
 
